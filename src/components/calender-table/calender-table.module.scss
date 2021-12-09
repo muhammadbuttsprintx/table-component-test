@@ -45,7 +45,7 @@ table {
     }
   }
   tr {
-    // height: 20px;
+    height: 20px;
 
     td {
       &:nth-child(2) {
@@ -80,6 +80,9 @@ table {
 span {
   &:nth-child(1) {
     margin: 0;
+  }
+  &:nth-child(2) {
+    margin-top: 8px;
   }
   background-color: #4b9f5b;
   border-radius: 5px;

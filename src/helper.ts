@@ -49,6 +49,21 @@ export const dataArr = [
     name: 'title4',
   },
   {
+    dayOfWeek: 2,
+    actionTime: '16:33',
+    name: 'title4',
+  },
+  {
+    dayOfWeek: 2,
+    actionTime: '16:33',
+    name: 'title4',
+  },
+  {
+    dayOfWeek: 2,
+    actionTime: '16:33',
+    name: 'title4',
+  },
+  {
     dayOfWeek: 7,
     actionTime: '18:34',
     name: 'title5',
