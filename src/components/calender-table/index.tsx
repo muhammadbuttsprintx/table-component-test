@@ -8,7 +8,7 @@ const CalenderTable = ({ eventsData }: any) => {
   eventsData.forEach(({ dayOfWeek, actionTime, name }: any, index: number) => {
     console.log(dayOfWeek, actionTime, name);
     const time = actionTime.split(':');
-    const currentArrIndex = +time[0] * 2 + (+time[1] <= 30 ? -1 : 0);
+    const currentArrIndex = +time[0] * 2 + (+time[1] <= 30 ? 0 : 1);
     console.log(newData[currentArrIndex]);
     if (newData[currentArrIndex] === undefined) {
       newData[currentArrIndex] = {
