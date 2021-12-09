@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { v4 } from 'uuid';
 import style from './calender-table.module.scss';
-import { columns, secondRow, setActive } from './helper';
+import { columns, secondRow, setActive } from '../../helper';
 
 const CalenderTable = ({ eventsData }: any) => {
   let newData: any = [];
